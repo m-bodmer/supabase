@@ -108,7 +108,7 @@ npx supabase login
     title: 'Generate types',
     bash: {
       code: `
-npx supabase gen types typescript --project-id "${ref}" --schema public > types/supabase.ts
+npx supabase gen types --lang=typescript --project-id "${ref}" --schema public > types/supabase.ts
 `,
     },
   }),
